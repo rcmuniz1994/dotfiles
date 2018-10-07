@@ -56,7 +56,7 @@ set ic
 syntax on
 color dracula
 
-nmap <Leader> :NERDTree<CR>
+nmap <C-z> :NERDTree<CR>
 nmap <Leader> :NERDTreeClose<CR>
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <C-e> :vsplit<CR>
