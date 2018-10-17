@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai
 mv monokai.vim ~/.vim/colors
 
 ln -sfv "$DIR/.vimrc" ~/.vimrc
-ln -sfv "$DIR/.tmux.conf" ~/.tmux.conf
+#ln -sfv "$DIR/.tmux.conf" ~/.tmux.conf
 #ln -sfv "$DIR/.gitconfig" ~/.gitconfig
 #ln -sfv "$DIR/.gitignore" ~/.gitignore
 #ln -sfv "$DIR/.gitignore_global" ~/.gitignore_global
