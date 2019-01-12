@@ -42,7 +42,7 @@ filetype plugin indent on
 """""
 """
 set mouse=a
-set guifont=RobotoMono
+set guifont=Roboto
 set number
 set ruler
 set showcmd
@@ -142,7 +142,7 @@ au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
-"set showcmd		" Show (partial) command in status line.
+set showcmd		" Show (partial) command in status line.
 "set showmatch		" Show matching brackets.
 "set ignorecase		" Do case insensitive matching
 "set smartcase		" Do smart case matching
@@ -150,6 +150,10 @@ au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
+"
+"This commands install python plugins
+set makeprg=pylint\ --reports=n\ --output-format=parseable\ %:p
+set errorformat=%f:%l:\ %m
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
