@@ -44,6 +44,7 @@ filetype plugin indent on
 set mouse=a
 set guifont=Roboto
 set number
+set list
 set ruler
 set showcmd
 set showmatch
