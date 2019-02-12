@@ -69,4 +69,7 @@ alias tkill='tmux kill-session -t'
 alias tls='tmux ls'
 alias tmux='tmux -u'
 
+# Terminal alias
+alias la='ls -al'
+
 export EDITOR='vim'
