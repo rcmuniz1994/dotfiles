@@ -73,3 +73,10 @@ alias tmux='tmux -u'
 alias la='ls -al'
 
 export EDITOR='vim'
+
+
+# NVM
+if [ -s ~/.nvm/nvm.sh ]; then
+	NVM_DIR=~/.nvm
+	source ~/.nvm/nvm.sh
+fi

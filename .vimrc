@@ -41,7 +41,7 @@ filetype plugin indent on
 """"""" non plugin things
 """""
 """
-set mouse=a
+"set mouse=a
 set guifont=Roboto
 set number
 set relativenumber
